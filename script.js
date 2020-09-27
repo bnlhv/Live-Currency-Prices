@@ -13,7 +13,7 @@ const currency = {
 let i=0;
 
 const currencyArray = ['BTC','ETH','USDT','XRP'];
-const urlName = ['bitcoin', 'ethereum', 'tether', 'xrp']
+const urlName = ['bitcoin', 'ethereum', 'tether', 'ripple']
 
 for(const currency of currencyArray){
     fetch(`https://min-api.cryptocompare.com/data/price?fsym=${currency}&tsyms=USD,JPY,EUR,ILS`)
